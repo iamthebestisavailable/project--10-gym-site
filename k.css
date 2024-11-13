@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Bhai 2", serif;
+/* list-style: none; */
+}
+body{
+    background-color: rgb(1, 1, 14);
+    color: white;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 14);
+    padding: 20px;
+    box-shadow: 0px 2px 6px 2px rgb(49, 49, 49);
+    color: white;
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+
+    &:hover{ 
+        
+        transition: all 0.3s ease;
+        color: rgb(127, 235, 127);
+        /* border-bottom: 2px solid rgb(127, 235,  127); */
+    }
+}
+ul li {
+    list-style: none;
+}
+nav ul {
+    margin-right: 63px;
+    margin-top: 4px;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    color: rgb(105, 248, 105);
+}
+ul li button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(26, 238, 26);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+&:hover{
+    transition: all 0.3s ease;
+    color: rgb(26, 238, 26);
+    background-color: rgb(34, 32, 32);
+    /* border: 2px solid white; */
+    border: none;
+}
+&:active{
+    /* transition: all 0.3s ease; */
+    background-color: rgb(78, 70, 70);
+    color: rgb(255, 136, 0);
+
+}
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main img{
+width: 59%;
+margin-top: 129px;
+margin-left: -174px;
+}
+.main .hometext{
+    margin-top: 200px;
+    margin-left: 44px;
+}
+.hometext h1{
+    font-size: 55px;
+    color: rgb(122, 218, 122);
+}
+.hometext h3{
+    margin-top: 22px;
+    font-size: 22px;
+}
+.hometext p{
+    margin-top: 22px;
+    /* font-size: 22px; */
+    color: silver;
+}
+.hometext button{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(87, 230, 87);
+    border-radius: 7px;
+    color: white;
+    &:hover{
+        transition: all 0.3s ease;
+        background-color: rgb(49, 49, 49);
+        color: rgb(0, 255, 0);
+    }
+    &:active{
+        transition: all 0.3s ease;
+        background-color: rgb(100, 105, 100);
+        color: rgb(255, 136, 0);
+}
+    
+}
+.head{
+    padding: 95px;
+    text-align: center;
+}
+.head span{
+    color: rgb(0, 255, 0);
+}
+.head .or{
+    color: orangered;
+
+}
+.ourprogram{
+    display: flex;
+    justify-content: center;
+}
+.ourprogram .crd{
+    margin-inline: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.ourprogram .crd img:hover{
+    transition: all 0.3s ease;
+    width: 103%;
+    opacity: 0.43;
+}
+.ourprogram .crd img:active{
+    transition: all 0.3s ease;
+    width: 103%;
+    opacity: 0.93;
+}
+/* plans */
+.ourplans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourplans .cards{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 400px;
+    width: 300px;
+    background-color: rgb(92, 85, 85);
+    padding: 42px;
+  
+    text-align: center;
+    margin-inline: 22px;
+    cursor: pointer;
+}
+.cards i{
+    font-size: 22px;
+    margin-top: 22px;
+    color: orangered;
+}
+.cards h3{
+    margin-top: 22px;
+    color: rgb(255, 168, 127);
+}
+.cards h1{
+    margin-top: 22px;
+    color: orangered;
+}
+.cards p{
+    margin-top: 12px;
+    /* line-height: 23%; */
+    color: silver;
+}
+
+.cards button{
+    margin-top: 22px;
+    width: 100px;
+    height: 33px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 13px;
+    border: none;
+    background-color:rgb(255, 95, 32);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    &:hover{
+        transition: all 0.3s ease;
+        color: orangered;
+        background-color:rgb(58, 63, 58);
+        
+        /* opacity: 0.23; */
+    }
+    &:active{
+        background-color:rgb(94, 100, 94);
+        color: #5ffff7;
+    }
+    
+}
+.cards:hover{
+    transition: all 0.3s ease;
+    width: 310px;
+    height: 430px;
+    background-color: black;
+    font-size: 18px ;
+}
+.ourblog{
+    display: flex;
+    justify-content: center;
+}
+.ourblog .blogcard{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: rgb(26, 24, 24);
+    text-align: center;
+}
+.blogcard img{
+    width: 100%;
+}
+.blogcard p{
+    margin-top: 22px;
+}
+.blogtext a {
+    /* margin-top: 22px; */
+    text-decoration: none;
+    width: 100px;
+    padding: 2px;
+    background-color: rgb(82, 197, 82);
+    color: white;
+    position: relative;
+    top: 7px;
+    border-radius: 4px;
+    /* margin-top: 22px; */
+    &:hover{
+        transition: all 0.3s ease;
+        background-color:rgb(34, 32, 32);
+        color: rgb(0, 255, 0);
+        /* width: 10px; */
+}
+&:active{
+    background-color: rgb(106, 112, 106);
+    color: rgb(255, 115, 0);
+}
+}
+.blogtext{
+    margin-top: 11px;
+}
+.contactpage{
+    display: flex;
+    justify-content: center;
+}
+.contacttext{
+    margin-left: 33px;
+    color: rgb(0, 255, 0);
+    margin-top: 134px;
+    font-size: 30px;
+}
+.contactpage img{
+    width: 60%;
+    margin-left: -33px;
+}
+.contact{
+    text-align: center;
+    margin-top: 22px;
+}
+.contact input{
+    width: 350px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 23px;
+}
+.contact button{
+    width: 340px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(2, 191, 2);
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 22px;
+    &:hover{
+        transition: all 0.3s ease;
+        background-color: rgb(47, 51, 47);
+        color: orangered;
+    }
+    &:active{
+        background-color: rgb(101, 110, 101);
+        color: rgb(0, 255, 213);
+}
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(59, 58, 58);
+}
+.footer .footertext{
+    margin-inline: 75px;
+    margin-top: 33px;
+}
+.footertext{
+    margin-inline: 75px;
+}
+.footertext p{
+    margin-top: 11px;
+    color: silver;
+
+    
+}
